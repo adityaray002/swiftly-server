@@ -1,4 +1,4 @@
-package com.backend.swiftly.entity;
+package com.backend.swiftly.USER.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -23,25 +23,21 @@ public class User {
 
     private String vehicleNo;
 
-    private String role;
 
-    public User(int id, String name, String email, String password, String mobileNo, String vehicleNo, String role) {
+
+    public User(int id, String name, String email, String password, String mobileNo, String vehicleNo) {
         this.id = id;
         this.name = name;
         this.email = email;
         this.password = password;
         this.mobileNo = mobileNo;
         this.vehicleNo = vehicleNo;
-        this.role = role;
+
     }
 
-    public String getRole() {
-        return role;
-    }
 
-    public void setRole(String role) {
-        this.role = role;
-    }
+
+
 
     public String getVehicleNo() {
         return vehicleNo;
@@ -51,18 +47,6 @@ public class User {
         this.vehicleNo = vehicleNo;
     }
 
-    @Override
-    public String toString() {
-        return "User{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", email='" + email + '\'' +
-                ", password='" + password + '\'' +
-                ", mobileNo='" + mobileNo + '\'' +
-                ", vehicleNo='" + vehicleNo + '\'' +
-                ", role='" + role + '\'' +
-                '}';
-    }
 
     public int getId() {
         return id;
@@ -106,10 +90,22 @@ public class User {
         this.mobileNo = mobileNo;
     }
 
-
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", mobileNo='" + mobileNo + '\'' +
+                ", vehicleNo='" + vehicleNo + '\'' +
+                '}';
+    }
 
     public User(){
 
     }
+
+
 
 }
