@@ -1,26 +1,33 @@
 package com.backend.swiftly.USER.entity;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.persistence.*;
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.NotNull;
+import lombok.NonNull;
 
 @Entity
 public class User {
     @Id
-    @GeneratedValue(strategy = GenerationType.SEQUENCE)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private int id;
+
+    @NotEmpty(message = "Name cannot be empty")
     private String name;
+
+
+    @NotEmpty(message = "Email cannot be empty")
     private String email;
 
+    @NotEmpty(message = "Password cannot be empty")
     private String password;
 
 
-
+    @NotEmpty(message = "Mobile Number cannot be empty")
     private String mobileNo;
 
 
 
+    @NotEmpty(message = "Vehicle Number cannot be empty")
     private String vehicleNo;
 
 

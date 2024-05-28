@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a80f037c-07ef-4760-80f5-488f705e0ad5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/VENDOR/exceptions/VendorNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/swiftly(1).iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/common/APIResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/common/APIResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/common/CustomUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/common/CustomUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/repository/UserRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/service/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/backend/swiftly/USER/service/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/common/APIResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/common/APIResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/common/CustomUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/common/CustomUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/controllers/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/controllers/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/repository/UserRepo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/repository/UserRepo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/service/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/backend/swiftly/USER/service/UserServiceImpl.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2f52qek3QrtLSoNwcReXgLDYkK5" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.SwiftlyApplication.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/adityaray/Downloads/swiftly_final/swiftly(1)&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a80f037c-07ef-4760-80f5-488f705e0ad5" name="Changes" comment="" />
+      <created>1713076809250</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1713076809250</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

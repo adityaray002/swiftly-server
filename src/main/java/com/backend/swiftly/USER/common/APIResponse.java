@@ -4,14 +4,14 @@ public class APIResponse {
     private int status;
     private Object data;
 
-    public Integer getStatus() {
+    public Object getStatus() {
         return status;
     }
 
-    public APIResponse(int status, Object data, Object error) {
+    public APIResponse(int status, Object data, Boolean isError) {
         this.status = status;
         this.data = data;
-        this.error = error;
+        this.isError = isError;
     }
 
     public void setStatus(int status) {
@@ -26,13 +26,13 @@ public class APIResponse {
         this.data = data;
     }
 
-    public Object getError() {
-        return error;
+    public Object getIsError() {
+        return isError;
     }
 
-    public void setError(Object error) {
-        this.error = error;
+    public void setIsError(Boolean isError) {
+        this.isError = isError;
     }
 
-    private Object error;
+    private Boolean isError;
 }

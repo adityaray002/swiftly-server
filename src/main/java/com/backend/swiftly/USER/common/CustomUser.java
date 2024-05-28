@@ -1,8 +1,5 @@
 package com.backend.swiftly.USER.common;
 
-
-
-
 public class CustomUser {
     private String email;
     private String password;
